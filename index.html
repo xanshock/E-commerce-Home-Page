@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ecom</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="logo">SHOPIFY</div>
+
+      <div class="icons">
+        <img src="./asset/user.png" alt="Cart" />
+        <img src="./asset/search.png" alt="Wishlist" />
+        <img src="./asset/heart.png" alt="Search" />
+        <img src="./asset/shopping-bag.png" alt="Profile" />
+      </div>
+    </nav>
+    <div class="card">
+      <img src="./asset/niga.jpg" alt="Card Image" />
+      <div class="card-content">
+        <p class="ca">CASUAL GLAMOUR</p>
+        <p class="up">Elevate Your Everyday with Sweatsuits</p>
+        <p class="para">
+          Elevate your loungewear game with our carefully curated ensembles,
+          combining plush fabrics and contemporary designs.
+        </p>
+        <a href="#" class="discover-btn">Discover Now</a>
+      </div>
+    </div>
+    <div class="image-row" id="image-row">
+      <img src="./asset/nike.jpg" alt="Image 1" />
+      <img src="./asset/adidas.jpg" alt="Image 2" />
+      <img src="./asset/con.jpg" alt="Image 3" />
+      <img src="./asset/puma.jpg" alt="Image 4" />
+      <img src="./asset/jordan.jpg" alt="Image 5" />
+      <img src="./asset/ny.jpg" alt="Image 6" />
+      <img src="./asset/levi.jpg" alt="Image 7" />
+      <img src="./asset/boss.jpg" alt="Image 8" />
+    </div>
+
+    <div class="parent">
+      <div class="div1">
+        <div class="text1">
+          <p class="ca">CASUAL GLAMOUR</p>
+          <p class="up">
+            <b>Where <br />Dream Meet <br />Couture</b>
+          </p>
+          <a href="#" class="discover">Shop Now</a>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="text2">
+          <p class="ca">TIMELESS ELEGANCE</p>
+          <p class="up">
+            <b>Where <br />Luxury Meet <br />Couture</b>
+          </p>
+          <a href="#" class="discover">Shop Now</a>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="text3">
+          <p class="ca">URBAN ENERGY</p>
+          <p class="up">
+            <b>Where <br />Passion Fuels <br />Performance</b>
+          </p>
+          <a href="#" class="discover">Shop Now</a>
+        </div>
+      </div>
+      <div class="div4">
+        <div class="text4">
+          <p class="ca">Trendsetting Bags for Her</p>
+          <p class="up"><b>50%</b></p>
+          <a href="#" class="discover">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="countdown-box">
+      <h2 class="title">Don't Miss Our <br />Mega Sales</h2>
+      <p class="subtitle">Hurry up! Limited time only</p>
+      <div class="countdown">
+        <div class="circle">
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <div class="circle">
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <div class="circle">
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <div class="circle">
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+      <button class="action-btn">Shop the sale</button>
+    </div>
+    <div class="review-container">
+      <p class="review-title">CLIENT  TESTIMONIALS</p>
+      <p class="review-subtitle">What Our Client Say</p>
+      <div class="review-box">
+        <img
+          src="./asset/icon.png"
+          alt="Review Icon"
+          class="review-icon"
+        />
+        <p class="review-text">
+          "Amazing product! It has completely transformed my daily routine.
+          Highly recommend!"
+        </p>
+        <img src="./asset/profile.jpg" alt="Customer" class="customer-img" />
+        <p class="customer-name">Esther - Marketing Coordinator </p>
+      </div>
+    </div>
+    <div class="image-row1">
+      <img src="./asset/img1.jpg" alt="Image 1" />
+      <img src="./asset/img2.jpg" alt="Image 2" />
+      <img src="./asset/img3.jpg" alt="Image 3" />
+      <img src="./asset/img4.jpg" alt="Image 4" />
+      <img src="./asset/img5.jpg" alt="Image 5" />
+      <img src="./asset/img6.jpg" alt="Image 6" />
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>SHOPIFY Inc.</h3>
+          <p>Be the first to know! Sign up to stay updated on the latest trends.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">→</button>
+          </form>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Company</h3>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Documentation</h3>
+          <a href="#">Help Centre</a>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Social</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Youtube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>© SHOPIFY Inc. All Rights Reserved 2023</p>
+        <a href="#" style="color: #aaa;">Terms & Conditions</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
